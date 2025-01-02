@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "timeflipv1client"
+version = "0.1.0"
+description = "Bluetooth protocol implementation for TimeFlipV1 devices"
+authors = ["Mehmet KARADAYI <msencerkaradayi@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.13,<3.14"
+bleak="0.22.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
